@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form time!</title>
+</head>
+
+<body>
+    <h1>Let's make a new sundae!</h1>
+    <form>
+        <div>
+            <label>Flavor:</label>
+            <input type="text" value="chocolate" maxlength="10">
+        </div>
+        
+        <div>
+            <label>How many scoops:</label>
+            <input type="number" placeholder="10">
+        </div>
+
+        <div>
+            <label>Secret ingredient:</label>
+            <input type="password">
+        </div>
+
+        <div>
+            <label>Date invented:</label>
+            <input type="datetime-local">
+        </div>
+
+        <div>
+            <input type="checkbox">
+            <label>Whipped cream?</label>
+        </div>
+
+        <div>
+            <label>How would you rate it?</label>
+            <div>
+                <input name="rating" type="radio">
+                <label>1</label>
+            </div>
+            <div>
+                <input name="rating" type="radio">
+                <label>2</label>
+            </div>
+            <div>
+                <input name="rating" type="radio">
+                <label>3</label>
+            </div>
+            <div>
+                <input name="rating" type="radio">
+                <label>4</label>
+            </div>
+            <div>
+                <input name="rating" type="radio">
+                <label>5</label>
+            </div>
+        </div>
+
+        <div>
+            <label>Topping:</label>
+            <select>
+                <option selected disabled>pick a topping!</option>
+                <option>pecans</option>
+                <option>sprinkles</option>
+                <option>oreos</option>
+                <option>sliced strawberries</option>
+                <option>cocoa pebbles</option>
+                <option>coconut chips</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Description</label>
+            <textarea rows="5" cols="50"></textarea>
+        </div>
+
+        <!-- <input type="submit" value="click me!"> -->
+        <button type="submit">click the button!</button>
+    </form>
+</body>
+
+</html>
