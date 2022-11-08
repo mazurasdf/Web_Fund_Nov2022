@@ -1,0 +1,57 @@
+h1{
+    background-color: #dc7c16;
+    color: brown;
+    font-style: italic;
+    text-align: center;
+    text-decoration:wavy line-through;
+    border: 3px solid black;
+    margin-bottom: 25px;
+    padding: 25px 20px 15px 10px;
+}
+
+#box{
+    height: 200px;
+    width: 50%;
+    background-color: palevioletred;
+    border: 2px solid black;
+}
+
+#subBox{
+    height: 30px;
+    width: 50%;
+    background-color: black;
+}
+
+p{
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+#subHeader{
+    margin: 50px;
+    border: 3px solid black;
+}
+
+.upsideDown{
+    transform: rotate(180deg);
+}
+
+.redText{
+    color: red;
+}
+
+p, h1{
+    font-family: cursive;
+}
+
+/* list items that have a ul as an ancestor */
+/* ul li{
+    font-size: 2em;
+    font-weight: bold;
+} */
+
+/* list items that have a ul as a direct parent */
+ul > li{
+    font-size: 2em;
+    font-weight: bold;
+}
