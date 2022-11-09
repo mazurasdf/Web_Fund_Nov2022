@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#canvas{
+    height: 650px;
+    width: 650px;
+    border: 3px solid black;
+    margin: 10px auto;
+    background-color: black;
+    box-shadow: 10px 5px 5px rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#topHalf{
+    width: 100%;
+    height: 68%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tallWhiteBoxes{
+    height: 100%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tallCorner{
+    width: 100%;
+    height: 45%;
+    background-color: white;
+}
+
+#bigRed{
+    height: 100%;
+    width: 73%;
+    background-color: red;
+}
+
+#bottomHalf{
+    width: 100%;
+    height: 27%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cornerBlue{
+    height: 100%;
+    width: 22%;
+    background-color:rgb(44, 73, 159);
+}
+
+#bottomRight{
+    height: 100%;
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#wideWhite{
+    height: 100%;
+    width: 81%;
+    background-color: white;
+}
+
+#twinTinyBoxes{
+    height: 100%;
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tinyCorner{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+}
